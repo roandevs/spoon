@@ -1,0 +1,12 @@
+echo "[Unit] 
+Description=spoon email
+After=network.target 
+[Service]  
+ExecStart=/usr/bin/npm run start
+WorkingDirectory=/opt/rsakeys.org/spoon.pw
+User=rsakeys
+[Install] 
+WantedBy=multi-user.target" > /etc/systemd/system/spoon.service & wait $!
+sudo systemctl daemon-reload & wait $!
+sudo systemctl enable spoon.service & wait $!
+sudo service spoon start & wait $!

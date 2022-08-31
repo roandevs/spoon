@@ -1,0 +1,293 @@
+
+
+@font-face{
+    font-family:"Neue Plak W05 Extended XBlack";
+    src:url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e4841578a190e81899ea4ef258eef72d3a036e96543ce79f6a8dbdb4030c201d44f5a4bc228df0de57f0fa4ba0f947180304a98ae97f7d3332f52bcbc3d8828c8698d17c45d7d57e97fb56e45890186f533dee995fd90ae18ac9f91e86bde602efd02b0e4f7334d421c89ebd&fctypeId=14&fcId=40af682f-ea2c-4976-b5fa-9fd9bd2a21f3&ranges=20-7e,a0-17e,2009-2009,2011-2011,2013-2014,2018-201a,201c-201e,2020-2022,2026-2026,2030-2030,2039-203a,2044-2044,20ac-20ac,2122-2122&ot=true&projectId=fcc2b181-4b99-49f3-8836-935fdf7d9d43") format("woff2"),url("https://api2.fonts.com/FontSubsetter.ashx?d44f19a684109620e4841578a190e81899ea4ef258eef72d3a036e96543ce79f6a8dbdb4030c201d44f5a4bc228df0de57f0fa4ba0f947180304a98ae97f7d3332f52bcbc3d8828c8698d17c45d7d57e97fb56e45890186f533dee995fd90ae18ac9f91e86bde602efd02b0e4f7334d421c89ebd&fctypeId=3&fcId=40af682f-ea2c-4976-b5fa-9fd9bd2a21f3&ranges=20-7e,a0-17e,2009-2009,2011-2011,2013-2014,2018-201a,201c-201e,2020-2022,2026-2026,2030-2030,2039-203a,2044-2044,20ac-20ac,2122-2122&ot=true&projectId=fcc2b181-4b99-49f3-8836-935fdf7d9d43") format("woff");
+}
+@font-face {  
+    font-family: "FF Mark W05";  
+    src: url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/0f774eeb-e868-4bd6-9055-79542afd5208.eot?#iefix");  
+    src: url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/0f774eeb-e868-4bd6-9055-79542afd5208.eot?#iefix") format("eot"), url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/cdb13a7a-2f13-4f7c-b7a3-01b4ccef574d.woff2") format("woff2"), url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/40a8594b-08b2-4a38-97d9-958c95360b20.woff") format("woff"), url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/bcc8880e-b967-43ce-a210-d1404cbdc736.ttf") format("truetype"); 
+    font-weight: 100;  
+    font-style: normal;
+}
+
+@media only screen and (max-width: 992px) {
+    #fang{
+        display: none !important;
+    }
+
+    #account-modal .modal-content{
+        margin-left: 40px;
+    }
+}
+#actions, #mail-nav-bar{
+    display: flex;
+}
+
+#new-email{
+
+    margin-bottom:20px;
+}
+
+.form-field{
+    margin-top:20px;
+}
+
+#no-mail-msg{
+    margin-top:10px;
+}
+#open-mailbox-btn, #open-folder-btn{
+    margin-top:10px;
+}
+.mr-action-btn{
+    margin-left:10px;
+}
+#logout{
+    margin-right:20px;
+}
+#email-selector{
+    height:450px;
+}
+
+.page-item.active .page-link .sr-only{
+    display:none;
+}
+
+#mail-nav-bar{
+    margin-bottom:20px;
+    width:535px;
+    background-color: #252525;
+}
+.browse-table-style{
+    background-color: #252525;
+}
+#progress-title{
+    color:white;
+}
+#folder-selector{
+    height:30vh;
+}
+#admin-table td{
+    color:white;
+}
+
+#admin-table th{
+    color:white;
+}
+
+#pagination{
+    margin-top:20px;
+}
+
+#admin-table{
+    margin-left:-10px;
+}
+
+.invite-section{
+    width:70%;
+    margin-top:10px;
+    margin-left:150px;
+}
+table{
+    overflow-y:scroll;
+    height:100%;
+}
+
+.remove-outline{
+    outline: none!important;
+    box-shadow: none;
+}
+
+.remove-outline:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+#mailbox-view{
+    background-color: #252525;
+    height:100vh;
+    width:80%;
+}
+
+#browse-mail{
+
+    width: 80%;
+}
+.text-left{
+ text-align: left;
+}
+
+
+#body-field{
+    height:200px;
+}
+#mail-portal{
+    background-color: #fff;
+    height: 60vh;
+    width: 60vw;
+}
+
+#progress{
+    margin-bottom:20px;
+}
+
+.selected-notice{
+    color: white;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: -26px;
+}
+
+.move-down{
+    margin-top:10px;
+}
+
+.secondary-nav-btn{
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom: 25px;
+    height:40px;
+}
+
+
+body, html {
+    background-image: url("/home_bg.png"); 
+    max-width:2558px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1562px;
+    height:120vh;
+
+}
+
+.table-row{
+    user-select:none;
+}
+
+#custom-navbar{
+    margin-left:3%;
+}
+.spinner-border{
+    margin-top: 10px;
+    border-width: 7px 7px!important;
+}
+#header{
+    margin-top: 14%;
+    margin-left: 4%;
+    color:white;
+}
+
+#header h2{
+    font-size: 3.5vw!important;
+    font-family: "Neue Plak W05 Extended XBlack";
+}
+#header h5{
+    font-size: 2vw!important;
+    font-family: "FF Mark W05";
+
+}
+#spoon-icon{
+    margin-left:70%;
+    margin-top: -10%;
+    -webkit-animation: mover3 2s infinite  alternate;
+    animation: mover3 2s infinite  alternate;
+}
+
+#spoon-home {
+    /* background-color: #000; */
+
+
+}
+
+.nav-item{    
+    color: white!important;
+    font-family: "FF Mark W05";
+    font-weight: bold;  
+    letter-spacing: 1px;
+}
+.navbar-toggler-icon {
+    border: none;
+    margin-top: 0px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+
+
+#account-modal #modal-header{
+    border-bottom: none;
+}
+
+#account-modal .form-label{
+color:black;
+}
+
+#account-modal .modal-content{
+    background: white url("/login_cover.png") no-repeat fixed top;
+    width: 80%;
+
+}
+
+
+.account-nav-tab .nav-link{
+    color: black!important;
+    margin-top:20%;
+}
+
+#account-title{
+    font-size: 28px;
+color: white;
+font-family: "Neue Plak W05 Extended XBlack";
+}
+
+.form-control{
+
+}
+  
+
+
+#brand{
+    margin-top:0.5%;
+    margin-left: 1%;
+}
+
+.account-form-item{
+    margin-bottom: 5%;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+
+@-webkit-keyframes mover2 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
+@keyframes mover2 {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(20px); }
+}
+
+@-webkit-keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+@keyframes mover1 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(20px); }
+}
+
+@-webkit-keyframes mover3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover3 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
